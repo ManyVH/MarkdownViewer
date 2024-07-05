@@ -1,0 +1,24 @@
+{
+  "name": "markdowmproject",
+  "version": "1.0.0",
+  "description": "Markdown Viewer",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "Pug",
+    "MarkDown"
+  ],
+  "author": "José Manuel Varela Hernández",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "pug": "^3.0.3",
+    "redis": "^4.6.15",
+    "share": "^0.7.40"
+  },
+  "type": "module"
+}
